@@ -8,6 +8,8 @@ from Sentiment_Analysis import getResults
 import streamlit as st
 import pandas as pd
 import numpy as np
+import nltk
+nltk.download('punkt')
 
 @st.cache
 def fetch_data(topic):
