@@ -6,6 +6,7 @@ from nltk.tokenize import sent_tokenize
 from nltk.stem import WordNetLemmatizer
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import re
+nltk.download('punkt')
 
 from word_similarity import load_model, get_similar_words
 
